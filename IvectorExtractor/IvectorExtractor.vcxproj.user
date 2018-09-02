@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>D:\code\IvectorExtractor\x64\ivec\UBM D:\code\IvectorExtractor\x64\ivec\Xform.ivec T stat D:\code\IvectorExtractor\x64\data\scp.id.stat D:\code\IvectorExtractor\x64\data dnn.ivec</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>D:\code\IvectorExtractor\ivec\UBM D:\code\IvectorExtractor\ivec\Xform.ivec F D:\code\IvectorExtractor\feat\scp.id.feat D:\code\IvectorExtractor\feat test.ivec</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>D:\code\IvectorExtractor\ivec\UBM D:\code\IvectorExtractor\ivec\Xform.ivec F D:\code\IvectorExtractor\feat\scp.id.feat D:\code\IvectorExtractor\feat test.ivec</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>D:\code\IvectorExtractor\x64\ivec\UBM D:\code\IvectorExtractor\x64\ivec\Xform.ivec T stat D:\code\IvectorExtractor\x64\data\scp.id.stat D:\code\IvectorExtractor\x64\data dnn.ivec</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

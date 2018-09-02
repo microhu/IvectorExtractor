@@ -1,0 +1,42 @@
+﻿Build started 8/24/2015 7:59:55 PM.
+     1>Project "D:\code\IvectorExtractor\IvectorExtractor\IvectorExtractor.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt CMatrix.cpp Common.cpp I_vector.cpp Gmm.cpp Program.cpp
+         CMatrix.cpp
+     1>CMatrix.cpp(54): warning C4267: 'argument' : conversion from 'size_t' to 'const ULONG', possible loss of data
+     1>CMatrix.cpp(1343): warning C4267: 'initializing' : conversion from 'size_t' to 'ULONG', possible loss of data
+     1>CMatrix.cpp(1378): warning C4267: 'argument' : conversion from 'size_t' to 'ULONG', possible loss of data
+     1>CMatrix.cpp(1474): warning C4267: 'argument' : conversion from 'size_t' to 'const ULONG', possible loss of data
+         Common.cpp
+         I_vector.cpp
+     1>I_vector.cpp(43): warning C4267: 'argument' : conversion from 'size_t' to 'ULONG', possible loss of data
+     1>I_vector.cpp(121): warning C4267: 'argument' : conversion from 'size_t' to 'ULONG', possible loss of data
+     1>I_vector.cpp(133): warning C4267: 'argument' : conversion from 'size_t' to 'ULONG', possible loss of data
+     1>I_vector.cpp(136): warning C4267: 'argument' : conversion from 'size_t' to 'ULONG', possible loss of data
+     1>I_vector.cpp(138): warning C4267: 'argument' : conversion from 'size_t' to 'ULONG', possible loss of data
+     1>I_vector.cpp(147): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>I_vector.cpp(148): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>I_vector.cpp(190): warning C4267: 'argument' : conversion from 'size_t' to 'ULONG', possible loss of data
+     1>I_vector.cpp(214): warning C4244: '=' : conversion from 'ULONG' to 'short', possible loss of data
+         Gmm.cpp
+     1>Gmm.cpp(72): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>Gmm.cpp(403): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>Gmm.cpp(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>Gmm.cpp(554): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Gmm.cpp(559): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+         Program.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\IvectorExtractor\x64\Release\IvectorExtractor.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\IvectorExtractor\x64\Release\IvectorExtractor.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\IvectorExtractor\x64\Release\IvectorExtractor.lib" /MACHINE:X64 x64\Release\CMatrix.obj
+         x64\Release\Common.obj
+         x64\Release\I_vector.obj
+         x64\Release\Gmm.obj
+         x64\Release\Program.obj
+         Generating code
+         Finished generating code
+         IvectorExtractor.vcxproj -> D:\code\IvectorExtractor\x64\Release\IvectorExtractor.exe
+     1>Done Building Project "D:\code\IvectorExtractor\IvectorExtractor\IvectorExtractor.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.22

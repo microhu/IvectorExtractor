@@ -1,0 +1,49 @@
+﻿Build started 3/21/2016 9:39:26 PM.
+     1>Project "D:\code\IvectorExtractor\DNN_Decoder\DNN_Decoder.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt fileutil.cpp Program.cpp
+         Program.cpp
+     1>d:\code\ivectorextractor\dnn_decoder\numahelpers.h(215): warning C4313: 'fprintf'  : '%x' in format string conflicts with argument 1 of type 'msra::numa::VirtualAllocExNuma_t'
+     1>d:\code\ivectorextractor\dnn_decoder\htkfeatio.h(414): warning C4267: '=' : conversion from 'size_t' to 'INT32', possible loss of data
+     1>d:\code\ivectorextractor\dnn_decoder\evalhelper.h(54): warning C4129: '.' : unrecognized character escape sequence
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility(144): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 d:\code\ivectorextractor\dnn_decoder\htkfeatio.h(456) : see reference to function template instantiation 'std::pair<int,float>::pair<_Ty2&,int,void>(_Other1,_Other2 &&)' being compiled
+                 with
+                 [
+                     _Ty2=size_t
+         ,            _Other1=size_t &
+         ,            _Other2=int
+                 ]
+                 d:\code\ivectorextractor\dnn_decoder\htkfeatio.h(456) : see reference to function template instantiation 'std::pair<int,float>::pair<_Ty2&,int,void>(_Other1,_Other2 &&)' being compiled
+                 with
+                 [
+                     _Ty2=size_t
+         ,            _Other1=size_t &
+         ,            _Other2=int
+                 ]
+                 d:\code\ivectorextractor\dnn_decoder\evalhelper.h(386) : see reference to function template instantiation 'void msra::asr::htkfeatwriter::writeEMStatistics<msra::dbn::matrix>(const std::wstring &,const std::wstring &,const MATRIX &,std::map<size_t,size_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,size_t)' being compiled
+                 with
+                 [
+                     MATRIX=msra::dbn::matrix
+         ,            _Kty=size_t
+         ,            _Ty=size_t
+                 ]
+                 Program.cpp(111) : see reference to function template instantiation 'void onlineeval::forwardPropagationGetEMStatistics<msra::dbn::matrix>(const MATRIX &,const std::wstring,std::map<size_t,size_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,int,const std::wstring &)' being compiled
+                 with
+                 [
+                     MATRIX=msra::dbn::matrix
+         ,            _Kty=size_t
+         ,            _Ty=size_t
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility(144): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         fileutil.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\IvectorExtractor\x64\Debug\DNN_Decoder.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\IvectorExtractor\x64\Debug\DNN_Decoder.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\IvectorExtractor\x64\Debug\DNN_Decoder.lib" /MACHINE:X64 x64\Debug\fileutil.obj
+         x64\Debug\Program.obj
+         DNN_Decoder.vcxproj -> D:\code\IvectorExtractor\x64\Debug\DNN_Decoder.exe
+     1>Done Building Project "D:\code\IvectorExtractor\DNN_Decoder\DNN_Decoder.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.00

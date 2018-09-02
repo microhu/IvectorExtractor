@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>--clusteredDnnPosterior D:\code\IvectorExtractor\x64\data\fisher.dbn.mfc.bneck64.62  D:\code\IvectorExtractor\x64\data\senone2state  D:\code\IvectorExtractor\x64\data\test.id.asr_mfc.scp D:\code\IvectorExtractor\x64\data\output pp</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>--dnnEMStats \\msr-hdp\Scratch\GW0015\user\v-zhonj\SpkIDExp\Training\DNN\SVD\fisher.svd.dbn \\msr-hdp\Scratch\GW0015\user\v-zhonj\SpkIDExp\Training\Inputs\dnn\statelist \\msr-hdp\Scratch\GW0015\user\v-zhonj\SpkIDExp\Training\Inputs\dnn\selectednodelist \\msr-hdp\Scratch\GW0015\user\v-zhonj\SpkIDExp\Training\DNN\Model\dnn.svd\statistics\scp\scp.Fisher.indg.temp.id.asr.mfc.1 \\msr-hdp\Scratch\GW0015\user\v-zhonj\SpkIDExp\Training\Inputs\fisher.feat\Fisher.indg.id.sid_feat.scp 0 \\msr-hdp\Scratch\GW0015\user\v-zhonj\SpkIDExp\Training\DNN\Model\dnn.svd\statistics\stat0 stat0</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
